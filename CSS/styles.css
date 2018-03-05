@@ -1,0 +1,260 @@
+/* CSS done by page */
+
+body{
+  font-family: "Palatino";
+  color: black;
+  margin: auto;
+  border: 15px solid #ABCEBF;
+}
+
+/*Navigation bar*/
+#Navigation{
+  background-color: #ABCEBF;
+  color: white;
+}
+
+.nav-item{
+  color:#5747B3;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+/*Link*/
+a:hover{
+color: #5747B3;
+}
+
+a{
+  color: #CE7976;
+}
+
+/* first div - move from nav*/
+
+div #First{
+  padding: 100px;
+  padding-top: 30px;
+}
+/* containers with videos and maps*/
+
+#media{
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    overflow: hidden;
+}
+/* Image fitting */
+
+img{
+ width:100%;
+ object-fit: contain;
+ margin-bottom:1em;
+
+}
+
+.logonav{
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+iframe{
+  width: 100%;
+  margin-bottom:1em;
+}
+
+/*Homepage*/
+
+/*slide*/
+#Slide1{
+  width: 100%;
+  height: 500px;
+}
+
+.Slideh1{
+  text-align: center;
+  color: white;
+  font-size: 70px;
+}
+
+.Slideh2first{
+  color:white;
+}
+
+.Slideh2{
+  text-align: center;
+  color: white;
+}
+
+.Slideh3{
+  text-align: center;
+  color: #CE7976;
+}
+
+h1{
+color: #5747B3;
+text-align: left;
+}
+
+h4.home{}
+
+/*
+#Slide2{
+  text-align: center;
+  color: #5747B3;
+}
+
+/*Exercise*/
+
+h1{
+  color: white;
+}
+.NonHome{
+  color: #5747B3;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+h3{
+  color: #CE7976;
+  font-weight: bold;
+
+}
+
+/* slide fonts */
+.exercise{
+  color: black;
+  font-size: 20px;
+  text-align:center;
+}
+
+.exercise3{
+  color: #5747B3;
+  font-size: 20px;
+  text-align:center;
+}
+
+.exercise4{
+  color:white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.healthywomen{
+  width:100%;
+  height: 300px;
+}
+
+/*Meditation*/
+h2{
+  color: #CE7976;
+  text-align: left;
+
+}
+
+
+h4{
+  color: #5747B3;
+  text-align: left;
+
+}
+
+hr{
+  height: 30px;
+  border-color: #CE7976;
+}
+
+.dotted{
+  border-style: dashed;
+  border-color: #ABCEBF;
+}
+
+p {
+  margin-bottom: 3em;
+  text-align: left;
+}
+
+/* for captions on meditation slide*/
+figure {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  position: absolute;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  padding: 10px 20px;
+
+  opacity: 0;
+  bottom: 0;
+  left: -30%;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+  left: 0;
+}
+
+figure:before {
+  content: "To find out, hover over this picture!";
+  font-weight: bold;
+  position: absolute;
+  background: rgba(255,255,255,0.75);
+  color: #;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  /* Only Fx 4 supporting transitions on psuedo elements so far... */
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  opacity: 0.75;
+}
+figure:hover:before {
+  opacity: 0;
+}
+
+
+/*Our Stories*/
+/*tiles*/
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.box {
+  color: #5747B3;
+  border-radius: 5px;
+  border: 5px solid #ABCEBF;
+  padding: 20px;
+}
+
+/* Support */
+
+.number{
+  color: blue;
+  text-decoration: underline;
+}
+
+/* About Us*/
+
+img.Creators{
+  width: 300px;
+  height: 300px;
+  align: middle;
+}
